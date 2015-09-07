@@ -1,9 +1,9 @@
 # IFCacheKit
 
-[![CI Status](http://img.shields.io/travis/ivanfoong/IFCacheKit.svg?style=flat)](https://travis-ci.org/ivanfoong/IFCacheKit)
-[![Version](https://img.shields.io/cocoapods/v/IFCacheKit.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit)
-[![License](https://img.shields.io/cocoapods/l/IFCacheKit.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit)
-[![Platform](https://img.shields.io/cocoapods/p/IFCacheKit.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit)
+[![CI Status](http://img.shields.io/travis/ivanfoong/IFCacheKit-Swift.svg?style=flat)](https://travis-ci.org/ivanfoong/IFCacheKit-Swift)
+[![Version](https://img.shields.io/cocoapods/v/IFCacheKit-Swift.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit-Swift)
+[![License](https://img.shields.io/cocoapods/l/IFCacheKit-Swift.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit-Swift)
+[![Platform](https://img.shields.io/cocoapods/p/IFCacheKit-Swift.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit-Swift)
 
 ## Usage
 
