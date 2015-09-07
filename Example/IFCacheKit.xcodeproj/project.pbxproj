@@ -13,6 +13,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		8D1719681B9D664C0088A791 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1719671B9D664C0088A791 /* Tests.swift */; };
 		8FCB7E1F09D95185B491C3EC /* Pods_IFCacheKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185AE4D22799BDDF29FAE229 /* Pods_IFCacheKit_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB51EA298630640146BF53F /* Pods_IFCacheKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFCacheKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2FBE0EC43B0534C51B97A8 /* IFCacheKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IFCacheKit.podspec; path = ../IFCacheKit.podspec; sourceTree = "<group>"; };
+		8D1719671B9D664C0088A791 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8D4063F01B9D5E4500268E44 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		8D4063F11B9D5E4500268E44 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8D4063F21B9D5E4500268E44 /* IFCacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFCacheTests.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				8D4063F31B9D5E4500268E44 /* IFDiskCacheTests.swift */,
 				8D4063F41B9D5E4500268E44 /* IFMemoryCacheTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				8D1719671B9D664C0088A791 /* Tests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1719681B9D664C0088A791 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
