@@ -1,6 +1,6 @@
 # IFCacheKit
 
-[![CI Status](http://img.shields.io/travis/ivanfoong/IFCacheKit-Swift.svg?style=flat)](https://travis-ci.org/ivanfoong/IFCacheKit-Swift)
+[![CI Status](https://travis-ci.org/ivanfoong/IFCacheKit-Swift.svg)](https://travis-ci.org/ivanfoong/IFCacheKit-Swift)
 [![Version](https://img.shields.io/cocoapods/v/IFCacheKit-Swift.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit-Swift)
 [![License](https://img.shields.io/cocoapods/l/IFCacheKit-Swift.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/IFCacheKit-Swift.svg?style=flat)](http://cocoapods.org/pods/IFCacheKit-Swift)
