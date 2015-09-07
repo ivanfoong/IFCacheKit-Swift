@@ -1,0 +1,25 @@
+{
+  "name": "IFCacheKit",
+  "version": "0.1.0",
+  "summary": "A short description of IFCacheKit.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/IFCacheKit",
+  "license": "MIT",
+  "authors": {
+    "Ivan Foong": "ivan.foong@docomointertouch.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/IFCacheKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "IFCacheKit": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

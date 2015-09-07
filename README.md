@@ -22,7 +22,7 @@ pod "IFCacheKit"
 
 ## Author
 
-Ivan Foong, ivan.foong@docomointertouch.com
+Ivan Foong, vonze21@gmail.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module IFCacheKit {
+  umbrella header "IFCacheKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

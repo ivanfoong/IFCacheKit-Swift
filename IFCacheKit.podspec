@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "IFCacheKit"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of IFCacheKit."
+  s.version          = "0.0.1"
+  s.summary          = "A caching library in Swift that's simple to use"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,24 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                       A Disk and LRU memory cache that is designed to be simple to use while being performant
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/IFCacheKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/ivanfoong/IFCacheKit-Swift"
   s.license          = 'MIT'
-  s.author           = { "Ivan Foong" => "ivan.foong@docomointertouch.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/IFCacheKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Ivan Foong" => "vonze21@gmail.com" }
+  s.source           = { :git => "https://github.com/ivanfoong/IFCacheKit-Swift.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/vonze21'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'IFCacheKit' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
