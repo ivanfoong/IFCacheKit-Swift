@@ -12,11 +12,11 @@ protocol IFCacheProtocol {
     typealias K: NSCoding, Hashable, NSCopying
     typealias V: NSCoding, NSCopying
     
-    public func all() -> Dictionary<K, V>
-    public func get(keys: Set<K>) -> Dictionary<K, V>
-    public func remove(keys: Set<K>) -> Self
-    public func clear() -> Self
-    public func put(key: K, value: V) -> Self
-    public func put(key: K, value: V, expiryDate: NSDate?) -> Self
-    public func size() -> Int
+    func all() -> Dictionary<K, V>
+    func get(keys: Set<K>) -> Dictionary<K, V>
+    func remove(keys: Set<K>) -> Self
+    func clear() -> Self
+    func put(key: K, value: V) -> Self
+    func put(key: K, value: V, expiryDate: NSDate?) -> Self
+    func size() -> Int
 }
