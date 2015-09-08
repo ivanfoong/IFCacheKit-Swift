@@ -9,8 +9,8 @@
 import Foundation
 
 protocol IFCacheProtocol {
-    typealias K: NSCoding, Hashable, NSCopying
-    typealias V: NSCoding, NSCopying
+    typealias K: NSObject, NSCoding, Hashable, NSCopying
+    typealias V: NSObject, NSCoding, NSCopying
     
     func all() -> Dictionary<K, V>
     func get(keys: Set<K>) -> Dictionary<K, V>

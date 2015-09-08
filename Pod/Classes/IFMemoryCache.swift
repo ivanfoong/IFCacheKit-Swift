@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class IFMemoryCache<Key: protocol<NSCoding, Hashable, NSCopying>, Value: protocol<NSCoding, NSCopying>> : IFCacheProtocol {
+public class IFMemoryCache<Key: NSObject, Value: NSObject where Key: protocol<NSCoding, Hashable, NSCopying>, Value: protocol<NSCoding, NSCopying>> : IFCacheProtocol {
     typealias K = Key
     typealias V = Value
     
